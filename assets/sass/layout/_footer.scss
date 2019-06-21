@@ -1,0 +1,21 @@
+// -----------------------------------------------------------------------------
+// Este archivo contiene todos los estilos relacionados con el pie de página del sitio/aplicación.
+// -----------------------------------------------------------------------------
+
+.footer {
+  @extend .section-wrapper;
+  background-color: $granite-gray;
+  display: table;
+  height: 200px;
+  text-align: center;
+
+  &__logo-wrapper {
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+  &__logo {
+    height: auto;
+    width: 150px;
+  }
+}

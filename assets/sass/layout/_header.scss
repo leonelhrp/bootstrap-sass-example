@@ -1,0 +1,21 @@
+// -----------------------------------------------------------------------------
+// Este archivo contiene todos los estilos relacionados con el encabezado del sitio/aplicación.
+// -----------------------------------------------------------------------------
+
+.header {
+  @extend .section-wrapper;
+  background-color: $white;
+  display: table;
+  height: 60px;
+
+  &__logo-wrapper {
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+  &__logo {
+    height: auto;
+    margin: 0 0 0 70px;
+    width: 200px;
+  }
+}
